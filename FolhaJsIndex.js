@@ -1,0 +1,22 @@
+
+var content="Desenvolvedor Web Freelancer",text=document.getElementById("text"),speed=190,cont=0;function typeWriter(){cont<content.length?(text.textContent+=content.charAt(cont),cont++,setTimeout(typeWriter,speed)):(text.textContent="",cont=0,typeWriter())}typeWriter();
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

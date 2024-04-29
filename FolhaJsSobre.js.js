@@ -1,0 +1,1 @@
+function openMenu(){$(".js-menu-container").addClass("is-open")}function closeMenu(){$(".js-menu-container").removeClass("is-open")}jQuery(document).ready(function(n){n(".js-menu-button").click(function(){openMenu()}),n(".js-menu-close").click(function(){closeMenu()})}),jQuery(document).keyup(function(n){27===n.keyCode&&$(".js-menu-container").hasClass("is-open")&&closeMenu()});
